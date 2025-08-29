@@ -1,0 +1,22 @@
+{
+    "name": "bruno/php-gtk3-mvc",
+    "type": "project",
+    "license": "AGPL-3.0-or-later",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:scorninpc/fabulagtk.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Bruno Pitteli Gonçalves",
+            "email": "scorninpc@gmail.com"
+        }
+    ],
+    "require": {
+        "scorninpc/fabulagtk": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

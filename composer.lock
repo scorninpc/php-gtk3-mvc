@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8795e24451185f3ff8c2b83538eca66c",
+    "packages": [
+        {
+            "name": "scorninpc/fabulagtk",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scorninpc/fabulagtk.git",
+                "reference": "8fb313e853e165b5945458ba136655a370d9ce62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scorninpc/fabulagtk/zipball/8fb313e853e165b5945458ba136655a370d9ce62",
+                "reference": "8fb313e853e165b5945458ba136655a370d9ce62",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FabulaGTK\\": "src/"
+                }
+            },
+            "license": [
+                "AGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Pitteli Gonçalves",
+                    "email": "scorninpc@gmail.com"
+                }
+            ],
+            "description": "php-gtk3 framework",
+            "support": {
+                "source": "https://github.com/scorninpc/fabulagtk/tree/main",
+                "issues": "https://github.com/scorninpc/fabulagtk/issues"
+            },
+            "time": "2025-08-29T13:56:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "scorninpc/fabulagtk": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
