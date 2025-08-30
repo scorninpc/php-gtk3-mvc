@@ -11,10 +11,13 @@ require(APPLICATION_PATH . "/vendor/autoload.php");
 // inicia o GTK
 \Gtk::init();
 
-// configura o autoload
+// inicia o app
+$app = \FabulaGTK\Bootstrap::instance();
 
 // inicia a janela principal
-var_dump(\FabulaGTK\FabulaGTK::version());
+$app->run("\\App\\Views\\mainWindow");
+
+// var_dump(\FabulaGTK\FabulaGTK::version());
 
 // inicia o loop da aplicação
 \Gtk::main();

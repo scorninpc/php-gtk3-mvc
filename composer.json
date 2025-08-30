@@ -17,6 +17,11 @@
     "require": {
         "scorninpc/fabulagtk": "dev-main"
     },
+	"autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
